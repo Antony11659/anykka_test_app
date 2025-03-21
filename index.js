@@ -8,5 +8,5 @@ const bot = new TelegramBot(token, { polling: true });
 bot.onText(/\/start/, async (msg, match) => {
   const chatId = msg.chat.id;
   
-  bot.sendMessage(chatId, "Hi how are you ")
+  bot.sendMessage(chatId, "Hi how are you my friend ")
 });
